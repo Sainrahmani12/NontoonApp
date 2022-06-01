@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "118148668904",
+    "project_id": "nontoon-app",
+    "storage_bucket": "nontoon-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:118148668904:android:8c1810a576094cc7ad585d",
+        "android_client_info": {
+          "package_name": "com.sain.nontoonapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "118148668904-qu7n93j8evstr1q0id2a5dr7nprf0rd1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sain.nontoonapp",
+            "certificate_hash": "3f4fd4a17e984bceee24935bf4018a87ce3d8966"
+          }
+        },
+        {
+          "client_id": "118148668904-n13g98jbg09dv98pdjmmv9sjr6nepn6f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEIGFm7FxhCNgSxL165soSv0O0Pgl25cw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "118148668904-n13g98jbg09dv98pdjmmv9sjr6nepn6f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

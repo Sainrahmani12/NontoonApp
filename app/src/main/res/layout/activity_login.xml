@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".activity.RegisterActivity">
+
+    <TextView
+        android:id="@+id/tv_signn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/fredokaone"
+        android:text="Welcome \nBack"
+        android:textColor="@color/white"
+        android:textSize="40sp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="574dp"
+        android:layout_below="@+id/tv_signn"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="-40dp"
+        android:backgroundTint="#FFFCFC"
+        app:cardCornerRadius="50dp">
+
+        <EditText
+            android:id="@+id/edt_email_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="20sp"
+            android:fontFamily="@font/poppinslight"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/abu"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edt_password_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="130dp"
+            android:layout_marginRight="20sp"
+            android:fontFamily="@font/poppinslight"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="@color/abu"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_sign"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="250dp"
+            android:fontFamily="@font/poppinsbold"
+            android:text="Sign in"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/btn_login"
+            android:layout_width="62dp"
+            android:layout_height="62dp"
+            android:layout_marginLeft="290dp"
+            android:layout_marginTop="250dp"
+            android:src="@drawable/arrow" />
+
+        <TextView
+            android:id="@+id/tv_signup"
+            android:layout_width="94dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="400dp"
+            android:fontFamily="@font/poppinslight"
+            android:text="@string/signup"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_forgot"
+            android:layout_width="312dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="400dp"
+            android:fontFamily="@font/poppinslight"
+            android:text="@string/forgot"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".activity.SplashScreenActivity">
+
+    <ImageView
+        android:id="@+id/iv_splashscreen"
+        android:layout_width="294dp"
+        android:layout_height="113.93dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/nontoon" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Version 1.0.0"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/tv_version"/>
+
+</RelativeLayout>
